@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #5f4fb5;
+}
+
+section h2, section h3{
+    font-family: 'Playpen Sans';
+    font-weight: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header .container{
+    background-color: 	#7B68EE;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+    color: #FFFAF0;
+}
+
+header h2, .banner h2{
+    font-family: 'Dancing Script';
+    font-size: 32px;
+}
+
+header li{
+    display: inline;
+    padding: 0 15px;
+}
+
+header li a{
+    text-decoration: none;
+    color: #FFFAF0;
+}
+
+header li a:hover{   
+    color: #e3dbc9;
+}
+
+.banner .container, .about-us .container{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.banner img, .about-us img{
+    width: 40%;
+}
+
+.bn-text, .description{
+    width: 65%;
+    max-width: 450px;
+    margin-left: 10px;
+}
+
+.bn-text p, .description p{
+    padding-top: 12px;
+}
+
+.galery .container{
+    margin-top: 15px;
+    display: block;
+    position: relative;
+}
+.galery-img{
+    margin-top: 10px;
+    display: flex;
+}
+
+.galery-img img{
+    width: calc(100% / 3);
+    height: 300px;
+    padding: 5px;
+    background-color: #ddd8f7;
+}
+.more{
+    position: absolute;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    right: 0;
+    background-color: #9684fa;
+}
+
+.more a{
+    text-decoration: none;
+    color: #FFFAF0;
+    padding: 5px;
+}
+
+.about-us{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.contact .container{
+    display: block;
+    margin-top: 30px;
+}
+.contact .wraper{
+    display: flex;
+}
+.wraper form, .sign, .lacolization{
+    display: block;
+    width: calc(100% / 3);
+    margin: 0 auto;
+}
+
+form input, form select, form textarea, form button{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+form button{
+    cursor: pointer;
+    color: #5f4fb5;
+    background-color: #ddd8f7;
+    border: 1px solid #c8c1f4;
+}
+
+form textarea{
+    height: 180px;
+    resize: none;
+}
+
+.sign img{
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+footer .container{
+    margin-top: 30px;
+    display: block;
+    background-color: #5f4fb5;
+    text-align: center;
+    padding: 10px 0;
+    color: #FFFAF0;
+}
